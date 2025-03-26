@@ -468,6 +468,7 @@
       <button class="tab-button active" onclick="showCategory('ghost', event)">Ghost</button>
       <button class="tab-button" onclick="showCategory('blatant', event)">Blatant</button>
       <button class="tab-button" onclick="showCategory('autoclicker', event)">Clickers</button>
+      <button class="tab-button" onclick="showCategory('skyblock', event)">Skyblock</button>
     </div>
   
     <div class="search-bar">
@@ -482,6 +483,9 @@
     </div>
     <div id="autoclicker" class="category">
       <div class="client-grid" id="autoclicker-clients"></div>
+    </div>
+    <div id="skyblock" class="category">
+      <div class="client-grid" id="skyblock-clients"></div>
     </div>
   </main>
   <footer>
@@ -512,7 +516,8 @@
       "Lustful", "Mango", "Manthe", "Medusa", "Monkey", "Moon", "Monolith Lite", "Nebula", "Nemesis",
       "Neo Lite", "Nite", "Opium", "Peach", "Prism", "Pulsive Lite", "Radon", "Rain", "Retro", "Rupol",
       "Sapphire Lite", "Slinky", "Soy", "Soda", "Spotify", "Strip", "Swift", "Spark Lite", "Sarm",
-      "Striker", "Thrax", "Uzi", "Void", "Vega", "Wok", "Yeet", "Yukio", "Zen", "Zoom", "v0", "420"]
+      "Striker", "Thrax", "Uzi", "Void", "Vega", "Wok", "Yeet", "Yukio", "Zen", "Zoom", "v0", "420"],
+        skyblock: ["Tuanahi", "Oringo", "SkyBlockExtras", "Cheeto", "Pizza", "ShadyAddons", "OneLauncher"]
       };
   
       function populateClients() {
@@ -532,7 +537,7 @@
     "Whiteout", "Asterion", "Exodus", "Noise", "Slinky", "Slap",
     "Astolfo", "Augustus", "Novoline", "Diablo", "Moon", "Rise", "ZeroDay", "Tenacity",
     "Dortware", "Xatz", "Rapist", "Ape", "Ares", "Crim", "Dewgs Private", "Dusk",
-    "Eclipse", "Exelon", "Glock", "Monkey", "Nebula", "Sarm", "Striker", "v0", "420"];
+    "Eclipse", "Exelon", "Glock", "Monkey", "Nebula", "Sarm", "Striker", "v0", "420", "Tuanahi", "Oringo", "SkyBlockExtras"];
         return top.includes(name);
       }
   
