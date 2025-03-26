@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clientchi Cosmetics & Alts</title>
+  <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
+  <style>
+    :root {
+      --teal-blue: #046582;
+      --slate-gray: #6E7582;
+      --salmon-pink: #F39189;
+      --matte-black: #1f1f1f;
+      --card-black: #2a2a2a;
+      --light-text: #f3f4f6;
+      --mid-text: #c0c5cc;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--matte-black);
+      color: var(--light-text);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: var(--card-black);
+      padding: 20px 0;
+      text-align: center;
+      z-index: 999;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: var(--light-text);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: var(--salmon-pink);
+    }
+
+    main {
+      padding: 120px 20px 60px;
+      flex: 1;
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--teal-blue);
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: var(--card-black);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .card i {
+      font-size: 36px;
+      color: var(--salmon-pink);
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: var(--light-text);
+    }
+
+    .card p {
+      font-size: 14px;
+      color: var(--mid-text);
+    }
+
+    footer {
+      background-color: var(--card-black);
+      padding: 30px 20px;
+      text-align: center;
+      color: var(--mid-text);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="index.html#features">Features</a>
+      <a href="index.html#showcase">Showcase</a>
+      <a href="https://t.me/clientchi" target="_blank">Telegram</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Cosmetics & Alt Accounts</h1>
+    <div class="grid">
+        <div class="card">
+            <i class="lni lni-star-filled" style="color: var(--salmon-pink); font-size: 36px; margin-bottom: 10px;"></i>
+            <h3>LabyMod Cosmetics</h3>
+            <p>Custom cosmetics and hats with your own design or preset styles.</p>
+          </div>
+          
+      <div class="card">
+        <i class="lni lni-sun"></i>
+        <h3>Lunar Client Cosmetics</h3>
+        <p>Capes, wings, masks and more — all tied to your Lunar account.</p>
+      </div>
+      <div class="card">
+        <i class="lni lni-brush"></i>
+        <h3>Optifine Capes</h3>
+        <p>Official cape with changeable styles and migration-safe delivery.</p>
+      </div>
+      <div class="card">
+        <i class="lni lni-users"></i>
+        <h3>Alt Accounts</h3>
+        <p>Full Access, NFA, and SFA accounts for PvP, bypass, or testing.</p>
+      </div>
+      <div class="card">
+        <i class="lni lni-telegram-original"></i>
+        <h3>Order via Telegram</h3>
+        <p>Message @rohhum for pricing, availability, and setup help.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Clientchi — All rights reserved.
+  </footer>
+</body>
+</html>
